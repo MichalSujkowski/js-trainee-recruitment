@@ -57,6 +57,11 @@ body {
     line-height: 18px;
     font-weight: 400;
     color: #71717A;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: #FAFAFA;
 }
 
 .menu-item.active {
@@ -66,7 +71,6 @@ body {
     color: #F97316;
     font-weight: 500;
 }
-
 
 .section {
     position: absolute;
@@ -100,4 +104,8 @@ body {
 
 .section-article img {
     margin-bottom: 64px;
+}
+
+.anchor {
+    text-decoration: none;
 }

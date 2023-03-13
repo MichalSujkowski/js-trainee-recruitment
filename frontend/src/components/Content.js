@@ -3,6 +3,7 @@ import React from 'react';
 import {Butterfly, Cheetah, Elephant, Fox, Panda, PolarBear, Squirrel} from '../img/index'
 
 const Content = () => {
+
     return (
         <div className={'section'}>
             <div className={'section-article'} id={'polar-bear'}>
@@ -51,3 +52,4 @@ const Content = () => {
 };
 
 export default Content;
+
