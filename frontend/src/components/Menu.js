@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import React, /*{useState}*/ from 'react';
+=======
+import React from 'react';
+>>>>>>> 304fc81 (initial and all changes. problem with send to pull request.)
 import AnchorLink from "react-anchor-link-smooth-scroll/lib/anchor-link";
 
 const Menu = () => {
@@ -12,6 +16,10 @@ const Menu = () => {
         <div className={'menu'}>
             <p className={'menu-name'}>Your new gang</p>
             <ul className={'menu-list'}>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 304fc81 (initial and all changes. problem with send to pull request.)
                 <AnchorLink href={'#polar-bear'} className={'anchor'}>
                     <li className={'menu-item active'}>Polar Bear</li>
                 </AnchorLink>
@@ -39,9 +47,19 @@ const Menu = () => {
                 <AnchorLink href={'#elephant'} className={'anchor'}>
                     <li className={'menu-item'}>Elephant</li>
                 </AnchorLink>
+<<<<<<< HEAD
             </ul>
         </div>
     );
+
+
+=======
+
+            </ul>
+        </div>
+    );
+>>>>>>> 304fc81 (initial and all changes. problem with send to pull request.)
 };
 
 export default Menu;
+
